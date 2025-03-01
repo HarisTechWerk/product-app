@@ -23,4 +23,4 @@ A React + TypeScript app showcasing a Product Detail component.
 - Team-ready project setup and documentation
 
 Built by [Haris Qureshi] - See my work and make a way for me to join you company!  
-[GitHub: myusername](https://github.com/HarisTechWerk)
+[GitHub: HarisTechWerk](https://github.com/HarisTechWerk)
