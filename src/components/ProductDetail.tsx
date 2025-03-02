@@ -14,14 +14,14 @@ const ProductDetail: React.FC<{ productId: number }> = ({ productId }) => {
   const [product, setProduct] = useState<Product | null>(null);
 
   useEffect(() => {
-    // Fake API call to fetch product details
+    // Fake API call for now
     setTimeout(() => {
       const fakeProduct: Product = {
         id: productId,
-        name: "Product Name",
-        description: "Product Description",
+        name: "Cool Book",
+        description: "A great read!",
         price: 19.99,
-        imageUrl: "https://picsum.photos/150", // Random image
+        imageUrl: "https://picsum.photos/150",
         rating: 4,
       };
       setProduct(fakeProduct);
@@ -32,12 +32,12 @@ const ProductDetail: React.FC<{ productId: number }> = ({ productId }) => {
 
   return (
     <div className="product-detail">
-      <img src={product.imageUrl} alt={product.name} className="product-image" />
       <h2>{product.name}</h2>
+      <img src={product.imageUrl} alt={product.name} />
       <p>{product.description}</p>
-      <p>Price: {product.price}€</p>
-      <p>Rating: {product.rating}</p>
-      <button onClick={() => alert("Added to cart!")}>Add to cart</button>
+      <p>Price: ${product.price}</p>
+      <p>Rating: {product.rating}/5</p>
+      <button onClick={() => alert("Added to cart!")}>Add to Cart</button>
     </div>
   );
 };

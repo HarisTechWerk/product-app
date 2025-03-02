@@ -21,6 +21,7 @@ A React + TypeScript app showcasing a Product Detail component.
 - Async data fetching
 - CSS styling and layout
 - Git version control and GitHub workflow
+- Unit testing with React Testing Library, including handling async delays and React 18 `act` for state updates
 - Team-ready project setup and documentation
 
 Built by [Haris Qureshi] - See my work and make a way for me to join your team!  
