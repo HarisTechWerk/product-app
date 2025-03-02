@@ -19,8 +19,9 @@ A React + TypeScript app showcasing a Product Detail component.
 - React with TypeScript
 - Component design and state management (`useState`, `useEffect`)
 - Async data fetching
+- CSS styling and layout
 - Git version control and GitHub workflow
 - Team-ready project setup and documentation
 
-Built by [Haris Qureshi] - See my work and make a way for me to join you company!  
+Built by [Haris Qureshi] - See my work and make a way for me to join your team!  
 [GitHub: HarisTechWerk](https://github.com/HarisTechWerk)
